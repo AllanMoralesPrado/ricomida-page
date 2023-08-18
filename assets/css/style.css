@@ -1,0 +1,137 @@
+body{
+    max-width: 1280px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    font-family: 'Lobster', cursive;
+}
+
+.px-45{
+    padding-left: 11.5625%; /*2.3125rem, es una medida fija equivalente a 37px*/
+    padding-right: 11.5625%;
+    line-height: 1;
+}
+
+.navbar{
+    background-color: #373A3C;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+}
+
+#logo-nav{
+    font-size: 37px;
+    margin-right: 0rem;
+}
+
+#principal{
+    height: 24rem;
+}
+
+.line{
+    display: block;
+    width: 100%;
+    border-top: 1px solid #000000;
+}
+
+.carousel-indicators {
+    bottom:-65px;
+    border-radius: 100%;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 12.68px;
+    height: 13.1px;
+    border-radius: 100%;
+    background-color: #373A3C;
+}
+
+.carousel-inner {
+    margin-bottom:50px;
+}
+
+#subtitle{
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p.h1{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 320px) {
+    div.h1{
+        font-size: 1.5625rem!important;
+    }   
+}
+
+@media screen and (max-width: 1280px) {
+    div.h1{
+        font-size: 2.5rem!important;
+    }   
+}
+
+p{
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+.preparacion{
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+
+ol{
+    padding-left: 1rem;
+}
+
+.card-title{
+    font-family: 'Cabin', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.card-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+#newsletter{
+    background-color: #DC3545;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+
+#newsletter .btn{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 86.4275px;
+    padding-right: 86.4275px;
+}
+
+footer{
+    text-align: center;
+    background-color: #373A3C ;
+}
+
+footer > p{
+    font-size: 37px;
+    color: #ffffff;
+    margin-bottom: 0rem;
+    padding-top: 1.25rem;
+    padding-bottom: 2.25rem;
+}
+
+.card{
+    max-width: 100%;
+}
