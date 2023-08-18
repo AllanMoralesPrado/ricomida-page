@@ -1,5 +1,5 @@
 # ricomida-page
-Página web estática de recetas de cocina
+Página web estática de recetas de cocina. Click [aquí](https://xd.adobe.com/spec/d60d3e21-4554-4e17-4fb1-e61d39f3d2b3-a03c/grid) para ver el mockup
 
 ## Guía de estilos
 
